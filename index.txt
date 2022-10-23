@@ -1,0 +1,19 @@
+Document Object:
+--> Document objects represent web pages loaded in browsers. 
+--> We can access an HTML element by accessing the document object.
+--> Document objects allow us to add dynamic content to our web pages.
+--> There are two ways to access the document object: by the window.document or by using the name document alone.
+--> Syntax: document.property_name;
+Example: getElementById():
+It returns the object of the given ID. If no object with that ID exists then it returns null.
+
+
+Window Object:
+--> Window objects are at the top of the DOM hierarchy.
+--> It displays the contents of a webpage in a browser window or frame.
+--> Global objects, functions, and variables of Javascript are members of the window object.
+--> Window objects are created whenever a window appears on screen to display the document's contents.
+--> Syntax: window.property_name;
+Example: alert():
+It used to display an alert box. It displays a specified message along with an OK button and is generally used to make sure that the information comes through the user.
+
